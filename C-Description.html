@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture Description</title>
+    <link rel="stylesheet" href="C-Description.css">
+</head>
+
+<body>
+
+    <div class="background">
+        <h1 class="title">Culture Description</h1>
+
+        <div class="form-container-vertical">
+
+
+            <div class="dropdown-container">
+                <label for="provinceDropdown">Select Province:</label>
+                <select id="provinceDropdown">
+                    <option value="">-- Select Province --</option>
+
+                </select>
+            </div>
+
+
+            <div class="dropdown-container">
+                <label for="cultureTypeDropdown">Select Culture Type:</label>
+                <select id="cultureTypeDropdown">
+                    <option value="">-- Select Culture Type --</option>
+
+                </select>
+            </div>
+        </div>
+
+        <div class="selected-display">
+            <label for="selectedProvince">Selected Province:</label>
+            <input type="text" id="selectedProvince" readonly>
+
+            <label for="selectedCultureType">Selected Culture Type:</label>
+            <input type="text" id="selectedCultureType" readonly>
+        </div>
+
+        <div class="description-container">
+            <label for="descriptionInput">Enter Culture Description:</label>
+            <textarea id="descriptionInput" rows="5" placeholder="Enter description..."></textarea>
+        </div>
+
+
+        <div class="media-container">
+            <label for="videoUpload">Upload Culture Video:</label>
+            <input type="file" id="videoUpload" accept="video/*">
+        </div>
+
+
+        <div class="media-container">
+            <label for="audioUpload">Upload Culture Audio/Music:</label>
+            <input type="file" id="audioUpload" accept="audio/*">
+        </div>
+
+        <div class="media-container">
+            <label for="imageUpload">Upload Culture Image:</label>
+            <input type="file" id="imageUpload" accept="image/*">
+        </div>
+        ]
+        <div class="submit-container">
+            <button id="submitBtn">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>

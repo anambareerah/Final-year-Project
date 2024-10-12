@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Culture Type Management</title>
+    <link rel="stylesheet" href="CType.css"> <!-- Link to your CSS file -->
+    <script src="script.js" defer></script> <!-- Link to your JavaScript file -->
+</head>
+
+<body>
+
+    <!-- Culture Type Management Section -->
+    <div class="background">
+        <h1 class="title">Culture Type Management</h1>
+
+        <div class="form-container">
+            <!-- Left Side for Combo Box and Culture Type Input -->
+            <div class="box">
+                <h2>Culture Entry</h2>
+
+                <!-- Province Combo Box -->
+                <label for="provinceDropdown">Select Province:</label>
+                <select id="provinceDropdown">
+                    <option value="" disabled selected>Select a province</option> <!-- Default option -->
+                </select>
+
+                <!-- Selected Province Display -->
+                <label for="selectedProvince">Selected Province:</label>
+                <input type="text" id="selectedProvince" readonly>
+
+
+                <!-- Input Box for Culture Type -->
+                <label for="cultureInput">Enter Culture Type:</label>
+                <input type="text" id="cultureInput" placeholder="Enter Culture Type">
+
+                <!-- Buttons for Culture Management -->
+                <div class="buttons">
+                    <button id="addCultureBtn">Add</button>
+                    <button id="removeCultureBtn">Remove</button>
+                    <button id="editCultureBtn">Edit</button>
+                </div>
+            </div>
+
+            <!-- Right Side Culture Grid -->
+            <div class="pk-culture-box">
+                <h2>Culture Type List</h2>
+                <ul id="cultureGrid" class="culture-grid">
+                    <!-- Culture types added here dynamically -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

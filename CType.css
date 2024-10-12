@@ -1,0 +1,161 @@
+/* General Styles for the Body */
+body {
+    background: url('hom\ bg.avif') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin-top: 200px;
+}
+
+/* Styling for the Background of Containers */
+.background {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Title Styles */
+.title {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #f0f0f0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Form Container for Culture Management */
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Styling for the Boxes on Both Sides */
+.box,
+.pk-culture-box {
+    background-color: rgba(255, 255, 255, 0.144);
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+}
+
+/* Heading styling */
+h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Label Styles */
+label {
+    font-size: 1rem;
+    color: #ddd;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+/* Input and Select Styles */
+input,
+select {
+    width: 517;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.904);
+    color: #fff;
+    font-size: 1rem;
+}
+
+/* Button Container Styles */
+.buttons {
+    margin-top: 20px;
+}
+
+/* Button Styles */
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effect for Buttons */
+button:hover {
+    background-color: #555;
+}
+
+/* Grid for Culture Types */
+.culture-grid {
+    list-style-type: none;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.1); /* Background for culture grid */
+    padding: 15px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Individual Culture Item Styles */
+.culture-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    cursor: default; /* Default cursor when hovering */
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover Effect for Culture Items */
+.culture-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+/* Dropdown Styles */
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: black; /* Set dropdown background to black */
+    color: white; /* Set text color to white */
+    font-size: 1rem;
+}
+
+/* Styles for dropdown options */
+select option {
+    background-color: black; /* Background for dropdown options */
+    color: white; /* Text color for dropdown options */
+}
+
+/* Hover Effect for Dropdown Options */
+select:hover {
+    background-color: white; /* Background color on hover */
+    color: black; /* Text color on hover */
+}
+
+/* Input Styles */
+input {
+    width: 100%; /* Changed width to 100% for responsiveness */
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.747);
+    color: #000000;
+    font-size: 1rem;
+}

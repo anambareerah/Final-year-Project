@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Province Management</title>
+    <link rel="stylesheet" href="setup.css">
+</head>
+
+<body>
+
+    <!-- Main Container with Background Image and Dark Overlay -->
+    <div class="background">
+        <h1 class="title">Setup for Province Name</h1>
+
+        <!-- Form and Grid Section -->
+        <div class="form-container">
+
+            <!-- Left Side Box for Inputs -->
+            <div class="box">
+                <h2>Province Entry</h2>
+
+                <!-- Auto-Generated ID (non-editable) -->
+                <label for="autoId">Auto-Generated ID:</label>
+                <input type="text" id="autoId" readonly>
+
+                <!-- Province Name Input -->
+                <label for="provinceInput">Province Name:</label>
+                <input type="text" id="provinceInput" placeholder="Enter Province Name">
+
+                <!-- Buttons for Add, Remove, and Edit -->
+                <div class="buttons">
+                    <button id="addBtn">Add</button>
+                    <button id="removeBtn">Remove</button>
+                    <button id="editBtn">Edit</button>
+                </div>
+            </div>
+
+            <!-- Right Side Box for Province List -->
+            <div class="pk-culture-box">
+                <h2>Province List</h2>
+                <ul id="provinceGrid" class="province-grid">
+                    <!-- Dynamically added provinces will appear here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="Setup.js
+    "></script>
+</body>
+
+</html>

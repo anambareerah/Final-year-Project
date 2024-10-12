@@ -1,0 +1,121 @@
+
+
+/* Setting the body background with image */
+body {
+    background: url('hom\ bg.avif') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+/* Background with dark overlay and container centering */
+.background {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    max-width: 1200px;
+}
+
+/* Main Title */
+.title {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #f0f0f0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* Form container for left and right boxes */
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    height: 400px;
+}
+
+/* Style for the left and right boxes */
+.box, .pk-culture-box {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    transition: transform 0.3s ease;
+}
+
+/* Hover effect for boxes */
+.box:hover, .pk-culture-box:hover {
+    transform: scale(1.05);
+}
+
+/* Box titles */
+h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+/* Label styling */
+label {
+    font-size: 1rem;
+    color: #ddd;
+    display: block;
+    margin: 10px 0 5px;
+}
+
+/* Input styling */
+input {
+    width: 517px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.767);
+    color: #000000;
+    font-size: 1rem;
+}
+
+/* Button styling */
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Province Grid styling */
+.province-grid {
+    list-style-type: none;
+    padding: 0;
+}
+
+.province-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.808);
+    border-radius: 5px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.province-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
